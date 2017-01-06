@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="shortcut icon" href="img/favicon.png">
+	
+    <title>Lets Order - Order Food Olnline</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default topnav header" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="index.html"><img src="img/logo.png"/></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <!--li>
+                        <a href="help.html">Help</a>
+                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	<section id="main-sec">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 tk-details">
+					<div class="col-md-12 tk-details-new">
+						<div class="col-md-3 tk-logo">
+							<img src="img/tk-logo.png" class="img-responsive center-block">
+						</div>
+						<div class="col-md-7 tk-name">
+							<p class="text-muted">ORDER FOOD ONLINE FROM </p>
+							<h3>Alis Fast Food </h3>
+							<h5 class="text-muted">143 Newport Road, Stafford, ST16 2EZ </h5>
+						</div>
+						<div class="col-md-2 tk-rating">
+							<h4 class="text-center"><span>4.1</span></h4>
+						</div>
+						<div class="col-md-12 try">
+							<div class="col-md-3 del-info1">
+								<p class="text-center">Delivery Time</p>
+								<p class="text-center"><strong>45 mins</strong></p>
+							</div>
+							<div class="col-md-3 del-info2 ">
+								<p class="text-center">Minimum Order</p>
+								<p class="text-center"><strong>£10.00</strong></p>
+							</div>
+							<div class="col-md-3 del-info3">
+								<p class="text-center">Payment Methods</p>
+								<p class="text-center"><strong>Online</strong></p>
+							</div>
+							<div class="col-md-3 del-info4">
+								<p class="text-center">Food Hygiene Rating</p>
+								<p class="text-center"><strong><span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span></strong></p>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<h5 class="text-center txtclr">CASH ON DELIVERY CURRENTLY UNAVAILABLE </h5>
+							<p class="text-center">Please pay via Debit cards, Credit cards, Net Banking or Wallets</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 tk-details">
+					<div class="col-md-12 tk-details-new">
+						<div class="col-md-12">
+							<form class="searchbox" action="">
+								<input type="search" placeholder="Search your delivery area" />
+								<button type="submit" value="search">&nbsp;</button>
+							</form>
+						</div>
+					</div>
+					<div class="col-md-12 tk-details-new">
+						<div class="col-md-12 radio-bts">
+							<h5 class="text-center txtclr">Order Type Selection </h5>
+							<div class="radio-item col-md-6">
+								<input type="radio" id="ritema" name="ritem" value="ropt1">
+								<label for="ritema">Collection</label>
+							</div>
+							<div class="radio-item col-md-6">
+								<input type="radio" id="ritemb" name="ritem" value="ropt2">
+								<label for="ritemb">Delivery</label>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 offer-msg bg-success">
+						<p>Get <strong> 15% OFF </strong>your first order.
+						<br>Use the code <strong>EATIN </strong>when you pay online.</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 tk-details pad-btm-0">
+					<div class="col-md-12 tk-details-new fixed-menu">
+						<div class="scroller scroller-left"><i class="glyphicon glyphicon-chevron-left"></i></div>
+						<div class="scroller scroller-right"><i class="glyphicon glyphicon-chevron-right"></i></div>
+						<div class="wrapper">
+							<ul class="nav nav-tabs list" id="myTab">
+							  <li><a href="#">Pizza</a></li>
+							  <li><a href="#">Kebabs</a></li>
+							  <li class="active"><a href="#">Southern Fried Chicken</a></li>
+							  <li><a href="#">Burgers</a></li>
+							  <li><a href="#">Desserts</a></li>
+							  <li><a href="#">Extras</a></li>
+							  <li><a href="#">Kids</a></li>
+							  <li><a href="#">Side Orders</a></li>
+							  <li><a href="#">Tubs</a></li>
+							  <li><a href="#">OFFERS</a></li>
+							  <li><a href="#">Wraps</a></li>
+							  <li><a href="#">Collection Offer</a></li>
+							  <li><a href="#">Kebabs</a></li>
+							  <li><a href="#">Pizza</a></li>
+							  <li><a href="#">OFFERS</a></li>
+							  <li><a href="#">Kebabs</a></li>
+							  <li><a href="#">Desserts</a></li>
+							  <li><a href="#">Kids</a></li>
+							 </ul>
+						</div>
+					</div>
+					<div class="col-md-12 tk-details-new1">
+						<div class="container-fluid">
+						<div class="row">
+							<div class="menuHeading col-md-12">
+								<h3>Pizzas</h3>
+							</div>
+							<div class="col-md-8 desctpn">
+								<p>All pizza are served in a pitta bread and fresh salad and choice of sauces. Can be served on a nan for extra 0.60</p>
+							</div>	
+							<div class="col-md-12 menu">
+								<div class="col-md-8 col-sm-12 col-xs-12 item">
+									<h4>Margherita</h4>
+								</div>
+								<div class="col-md-2 col-sm-6 col-xs-6 item">
+									<h4>£50.60</h4>
+								</div>
+								<div class="center btncounts col-md-2 col-sm-6 col-xs-6">
+									<p></p>
+									<button class="trynew btn btn-default btn-success btn-group-justified" type="button">Add</button>
+									<div class="input-group showcount">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[1]">
+												<span class="glyphicon glyphicon-minus"></span>
+											  </button>
+										  </span>
+										  <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="100">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[1]">
+												  <span class="glyphicon glyphicon-plus"></span>
+											  </button>
+										  </span>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-12 menu">
+								<div class="col-md-8 col-sm-12 col-xs-12 item">
+									<h4>9inch Seafood Suprise</h4>
+								</div>
+								<div class="col-md-2 col-sm-6 col-xs-6 item">
+									<h4>£6.50</h4>
+								</div>
+								<div class="center btncounts col-md-2 col-sm-6 col-xs-6">
+									<p></p>
+									<button class="trynew1 btn btn-default btn-success btn-group-justified" type="button">Add</button>
+									<div class="input-group showcount1">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[2]">
+												<span class="glyphicon glyphicon-minus"></span>
+											  </button>
+										  </span>
+										  <input type="text" name="quant[2]" class="form-control input-number" value="1" min="1" max="100">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[2]">
+												  <span class="glyphicon glyphicon-plus"></span>
+											  </button>
+										  </span>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-12 menu">
+								<div class="col-md-8 col-sm-12 col-xs-12 item">
+									<h4>Farm House</h4>
+								</div>
+								<div class="col-md-2 col-sm-6 col-xs-6 item">
+									<h4>£8.90</h4>
+								</div>
+								<div class="center btncounts col-md-2 col-sm-6 col-xs-6">
+									<p></p>
+									<button class="trynew2 btn btn-default btn-success btn-group-justified" type="button">Add</button>
+									<div class="input-group showcount2">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[3]">
+												<span class="glyphicon glyphicon-minus"></span>
+											  </button>
+										  </span>
+										  <input type="text" name="quant[3]" class="form-control input-number" value="1" min="1" max="100">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[3]">
+												  <span class="glyphicon glyphicon-plus"></span>
+											  </button>
+										  </span>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-12 menu">
+								<div class="col-md-8 col-sm-12 col-xs-12 item">
+									<h4>Chicken Tikka Delight</h4>
+								</div>
+								<div class="col-md-2 col-sm-6 col-xs-6 item">
+									<h4>£5.60</h4>
+								</div>
+								<div class="center btncounts col-md-2 col-sm-6 col-xs-6">
+									<p></p>
+									<button class="trynew4 btn btn-default btn-success btn-group-justified" type="button">Add</button>
+									<div class="input-group showcount4">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[4]">
+												<span class="glyphicon glyphicon-minus"></span>
+											  </button>
+										  </span>
+										  <input type="text" name="quant[4]" class="form-control input-number" value="1" min="1" max="100">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[4]">
+												  <span class="glyphicon glyphicon-plus"></span>
+											  </button>
+										  </span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 menu">
+								<div class="col-md-8 col-sm-12 col-xs-12 item">
+									<h4>Hot N Spicy</h4>
+								</div>
+								<div class="col-md-2 col-sm-6 col-xs-6 item">
+									<h4>£8.60</h4>
+								</div>
+								<div class="center btncounts col-md-2 col-sm-6 col-xs-6">
+									<p></p>
+									<button class="trynew5 btn btn-default btn-success btn-group-justified" type="button">Add</button>
+									<div class="input-group showcount5">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[5]">
+												<span class="glyphicon glyphicon-minus"></span>
+											  </button>
+										  </span>
+										  <input type="text" name="quant[5]" class="form-control input-number" value="1" min="1" max="100">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[5]">
+												  <span class="glyphicon glyphicon-plus"></span>
+											  </button>
+										  </span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 menu">
+								<div class="col-md-8 col-sm-12 col-xs-12 item">
+									<h4>Pepperoni Passion</h4>
+								</div>
+								<div class="col-md-2 col-sm-6 col-xs-6 item">
+									<h4>£9.90</h4>
+								</div>
+								<div class="center btncounts col-md-2 col-sm-6 col-xs-6">
+									<p></p>
+									<button class="trynew3 btn btn-default btn-success btn-group-justified" type="button">Add</button>
+									<div class="input-group showcount3">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[6]">
+												<span class="glyphicon glyphicon-minus"></span>
+											  </button>
+										  </span>
+										  <input type="text" name="quant[6]" class="form-control input-number" value="1" min="1" max="100">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[6]">
+												  <span class="glyphicon glyphicon-plus"></span>
+											  </button>
+										  </span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="menuHeading col-md-12">
+								<h3>Kebab</h3>
+							</div>
+							<div class="col-md-8 desctpn">
+								<p>All kebabs are served in a pitta bread and fresh salad and choice of sauces. Can be served on a nan for extra 0.60</p>
+							</div>	
+							<div class="col-md-12 menu">
+								<div class="col-md-8 col-sm-12 col-xs-12 item">
+									<h4>Margherita</h4>
+								</div>
+								<div class="col-md-2 col-sm-6 col-xs-6 item">
+									<h4>£50.60</h4>
+								</div>
+								<div class="center btncounts col-md-2 col-sm-6 col-xs-6">
+									<p></p>
+									<button class="trynew7 btn btn-default btn-success btn-group-justified" type="button">Add</button>
+									<div class="input-group showcount7">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[7]">
+												<span class="glyphicon glyphicon-minus"></span>
+											  </button>
+										  </span>
+										  <input type="text" name="quant[7]" class="form-control input-number" value="1" min="1" max="100">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[7]">
+												  <span class="glyphicon glyphicon-plus"></span>
+											  </button>
+										  </span>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-12 menu">
+								<div class="col-md-8 col-sm-12 col-xs-12 item">
+									<h4>9inch Seafood Suprise</h4>
+								</div>
+								<div class="col-md-2 col-sm-6 col-xs-6 item">
+									<h4>£6.50</h4>
+								</div>
+								<div class="center btncounts col-md-2 col-sm-6 col-xs-6">
+									<p></p>
+									<button class="trynew8 btn btn-default btn-success btn-group-justified" type="button">Add</button>
+									<div class="input-group showcount8">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[8]">
+												<span class="glyphicon glyphicon-minus"></span>
+											  </button>
+										  </span>
+										  <input type="text" name="quant[8]" class="form-control input-number" value="1" min="1" max="100">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[8]">
+												  <span class="glyphicon glyphicon-plus"></span>
+											  </button>
+										  </span>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-12 menu">
+								<div class="col-md-8 col-sm-12 col-xs-12 item">
+									<h4>Farm House</h4>
+								</div>
+								<div class="col-md-2 col-sm-6 col-xs-6 item">
+									<h4>£8.90</h4>
+								</div>
+								<div class="center btncounts col-md-2 col-sm-6 col-xs-6">
+									<p></p>
+									<button class="trynew9 btn btn-default btn-success btn-group-justified" type="button">Add</button>
+									<div class="input-group showcount9">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[9]">
+												<span class="glyphicon glyphicon-minus"></span>
+											  </button>
+										  </span>
+										  <input type="text" name="quant[9]" class="form-control input-number" value="1" min="1" max="100">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[9]">
+												  <span class="glyphicon glyphicon-plus"></span>
+											  </button>
+										  </span>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-md-12 menu">
+								<div class="col-md-8 col-sm-12 col-xs-12 item">
+									<h4>Chicken Tikka Delight</h4>
+								</div>
+								<div class="col-md-2 col-sm-6 col-xs-6 item">
+									<h4>£5.60</h4>
+								</div>
+								<div class="center btncounts col-md-2 col-sm-6 col-xs-6">
+									<p></p>
+									<button class="trynew10 btn btn-default btn-success btn-group-justified" type="button">Add</button>
+									<div class="input-group showcount10">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[10]">
+												<span class="glyphicon glyphicon-minus"></span>
+											  </button>
+										  </span>
+										  <input type="text" name="quant[10]" class="form-control input-number" value="1" min="1" max="100">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[10]">
+												  <span class="glyphicon glyphicon-plus"></span>
+											  </button>
+										  </span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 menu">
+								<div class="col-md-8 col-sm-12 col-xs-12 item">
+									<h4>Hot N Spicy</h4>
+								</div>
+								<div class="col-md-2 col-sm-6 col-xs-6 item">
+									<h4>£8.60</h4>
+								</div>
+								<div class="center btncounts col-md-2 col-sm-6 col-xs-6">
+									<p></p>
+									<button class="trynew11 btn btn-default btn-success btn-group-justified" type="button">Add</button>
+									<div class="input-group showcount11">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[11]">
+												<span class="glyphicon glyphicon-minus"></span>
+											  </button>
+										  </span>
+										  <input type="text" name="quant[11]" class="form-control input-number" value="1" min="1" max="100">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[11]">
+												  <span class="glyphicon glyphicon-plus"></span>
+											  </button>
+										  </span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12 menu">
+								<div class="col-md-8 col-sm-12 col-xs-12 item">
+									<h4>Pepperoni Passion</h4>
+								</div>
+								<div class="col-md-2 col-sm-6 col-xs-6 item">
+									<h4>£9.90</h4>
+								</div>
+								<div class="center btncounts col-md-2 col-sm-6 col-xs-6">
+									<p></p>
+									<button class="trynew12 btn btn-default btn-success btn-group-justified" type="button">Add</button>
+									<div class="input-group showcount12">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-danger btn-number"  data-type="minus" data-field="quant[12]">
+												<span class="glyphicon glyphicon-minus"></span>
+											  </button>
+										  </span>
+										  <input type="text" name="quant[12]" class="form-control input-number" value="1" min="1" max="100">
+										  <span class="input-group-btn">
+											  <button type="button" class="btn btn-success btn-number" data-type="plus" data-field="quant[12]">
+												  <span class="glyphicon glyphicon-plus"></span>
+											  </button>
+										  </span>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+					</div>		
+				</div>
+				<div class="col-md-4 tk-details pad-btm-0 ">
+					<div class="col-md-12 tk-details-new">
+						<h4 class="text-center ">Your Order</h4>
+						<p class="mine7"></p>
+						<p class="mine"></p>
+						<p class="mine1"></p>
+						<p class="mine2"></p>
+						<p class="mine3"></p>
+						<p class="mine4"></p>
+						<p class="mine5"></p>
+						<p class="mine6"></p>
+						<img src="img/empty-cart.png" class="img-responsive center-block" style="height:150px; margin-top:60px; margin-bottom:20px;">
+						<p class="text-muted text-center">Your cart is empty. <br> Add an item to begin.</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+				<div class="col-md-4 socilmd">
+					<span class="fa-stack fa-lg">
+					<a href="#">
+						<i class="fa fa-circle gplus fa-stack-2x"></i>
+						<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+					</a>
+					</span>
+					<span class="fa-stack fa-lg">
+					<a href="#">
+						<i class="fa fa-circle twt fa-stack-2x"></i>
+						<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+					</a>
+					</span>
+					
+					<span class="fa-stack fa-lg">
+					<a href="#">
+						<i class="fa fa-circle fb fa-stack-2x"></i>
+						<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+					</a>
+					</span>
+				</div>
+				<div class="col-md-4 pytmcards">
+					<img src="img/pymt-logos.png" class="img-responsive center-block">
+				</div>
+				<div class="col-offset-md-1 col-md-3 chatsupt pull-right">
+					<h3 class="text-center"><i class="fa fa-comments-o" aria-hidden="true"></i> <strong>Feedback</strong></h3>
+					<p class="text-center text-muted">Help us improve our website</p>
+				</div>
+           </div>
+        </div>
+		<section class="footer2">
+			<div class="container">
+				<p class="text-center copyright text-muted small">Copyright &copy; Let's Order 2016. All Rights Reserved</p>
+			</div>
+        </section>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/dd2f3e4e72.js"></script>
+	
+<script type="text/javascript">
+			$(window).scroll(function () {
+				var windscroll = $(window).scrollTop();
+				if (windscroll >= 310) {
+					$('.fixed-menu').addClass('fixed');
+				   
+				} else if (windscroll <= 319) {
+					$('.fixed-menu').removeClass('fixed');
+					
+
+				} 
+			}).scroll();
+	</script>
+    <script>
+			var hidWidth;
+			var scrollBarWidths = 40;
+
+			var widthOfList = function(){
+			  var itemsWidth = 0;
+			  $('.list li').each(function(){
+				var itemWidth = $(this).outerWidth();
+				itemsWidth+=itemWidth;
+			  });
+			  return itemsWidth;
+			};
+
+			var widthOfHidden = function(){
+			  return (($('.wrapper').outerWidth())-widthOfList()-getLeftPosi())-scrollBarWidths;
+			};
+
+			var getLeftPosi = function(){
+			  return $('.list').position().left;
+			};
+
+			var reAdjust = function(){
+			  if (($('.wrapper').outerWidth()) < widthOfList()) {
+				$('.scroller-right').show();
+			  }
+			  else {
+				$('.scroller-right').hide();
+			  }
+			  
+			  if (getLeftPosi()<0) {
+				$('.scroller-left').show();
+			  }
+			  else {
+				$('.item').animate({left:"-="+getLeftPosi()+"px"},'slow');
+				$('.scroller-left').show();
+			  }
+			}
+
+			reAdjust();
+
+			$(window).on('resize',function(e){  
+				reAdjust();
+			});
+
+			$('.scroller-right').click(function() {
+			  
+			  $('.scroller-left').fadeIn('slow');
+			  //$('.scroller-right').fadeOut('slow');
+			  
+			  $('.list').animate({left:"+="+widthOfHidden()+"px"},'slow',function(){
+
+			  });
+			});
+
+			$('.scroller-left').click(function() {
+			  
+				$('.scroller-right').fadeIn('slow');
+				//$('.scroller-left').fadeOut('slow');
+			  
+				$('.list').animate({left:"-="+getLeftPosi()+"px"},'slow',function(){
+				
+				});
+			});
+	</script>
+<script>
+	//plugin bootstrap minus and plus
+//http://jsfiddle.net/laelitenetwork/puJ6G/
+$('.btn-number').click(function(e){
+    e.preventDefault();
+    
+    fieldName = $(this).attr('data-field');
+    type      = $(this).attr('data-type');
+    var input = $("input[name='"+fieldName+"']");
+    var currentVal = parseInt(input.val());
+    if (!isNaN(currentVal)) {
+        if(type == 'minus') {
+            
+            if(currentVal > input.attr('min')) {
+                input.val(currentVal - 1).change();
+            } 
+            if(parseInt(input.val()) == input.attr('min')) {
+                $(this).attr('disabled', true);
+            }
+
+        } else if(type == 'plus') {
+
+            if(currentVal < input.attr('max')) {
+                input.val(currentVal + 1).change();
+            }
+            if(parseInt(input.val()) == input.attr('max')) {
+                $(this).attr('disabled', true);
+            }
+
+        }
+    } else {
+        input.val(0);
+    }
+});
+$('.input-number').focusin(function(){
+   $(this).data('oldValue', $(this).val());
+});
+$('.input-number').change(function() {
+    
+    minValue =  parseInt($(this).attr('min'));
+    maxValue =  parseInt($(this).attr('max'));
+    valueCurrent = parseInt($(this).val());
+    
+    name = $(this).attr('name');
+    if(valueCurrent >= minValue) {
+        $(".btn-number[data-type='minus'][data-field='"+name+"']").removeAttr('disabled')
+    } else {
+        alert('Sorry, the minimum value was reached');
+        $(this).val($(this).data('oldValue'));
+    }
+    if(valueCurrent <= maxValue) {
+        $(".btn-number[data-type='plus'][data-field='"+name+"']").removeAttr('disabled')
+    } else {
+        alert('Sorry, the maximum value was reached');
+        $(this).val($(this).data('oldValue'));
+    }
+    
+    
+});
+$(".input-number").keydown(function (e) {
+        // Allow: backspace, delete, tab, escape, enter and .
+        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 190]) !== -1 ||
+             // Allow: Ctrl+A
+            (e.keyCode == 65 && e.ctrlKey === true) || 
+             // Allow: home, end, left, right
+            (e.keyCode >= 35 && e.keyCode <= 39)) {
+                 // let it happen, don't do anything
+                 return;
+        }
+        // Ensure that it is a number and stop the keypress
+        if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+            e.preventDefault();
+        }
+    });
+</script>
+
+<script>
+$(document).ready(function(){
+    $(".showcount").hide();
+    $(".trynew").click(function(){
+    $(".showcount").show();
+	$(".trynew").hide();
+    });
+	
+	 $(".showcount1").hide();
+    $(".trynew1").click(function(){
+    $(".showcount1").show();
+	$(".trynew1").hide();
+    });
+	$(".showcount2").hide();
+    $(".trynew2").click(function(){
+    $(".showcount2").show();
+	$(".trynew2").hide();
+    });
+	$(".showcount3").hide();
+    $(".trynew3").click(function(){
+    $(".showcount3").show();
+	$(".trynew3").hide();
+    });
+	$(".showcount4").hide();
+    $(".trynew4").click(function(){
+    $(".showcount4").show();
+	$(".trynew4").hide();
+    });
+	$(".showcount5").hide();
+    $(".trynew5").click(function(){
+    $(".showcount5").show();
+	$(".trynew5").hide();
+    });
+	$(".showcount6").hide();
+    $(".trynew6").click(function(){
+    $(".showcount6").show();
+	$(".trynew6").hide();
+    });
+	$(".showcount7").hide();
+    $(".trynew7").click(function(){
+    $(".showcount7").show();
+	$(".trynew7").hide();
+    });
+	$(".showcount8").hide();
+    $(".trynew8").click(function(){
+    $(".showcount8").show();
+	$(".trynew8").hide();
+    });
+	$(".showcount9").hide();
+    $(".trynew9").click(function(){
+    $(".showcount9").show();
+	$(".trynew9").hide();
+    });
+	$(".showcount10").hide();
+    $(".trynew10").click(function(){
+    $(".showcount10").show();
+	$(".trynew10").hide();
+    });
+	$(".showcount11").hide();
+    $(".trynew11").click(function(){
+    $(".showcount11").show();
+	$(".trynew11").hide();
+    });
+	$(".showcount12").hide();
+    $(".trynew12").click(function(){
+    $(".showcount12").show();
+	$(".trynew12").hide();
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+	$(".trynew").click(function(){
+        $(".mine7").append(" <b>Item text1</b>.<span class='pull-right removeitem'>X</span>");
+    });
+    $(".trynew1").click(function(){
+        $(".mine").append(" <b>Item text2</b>.<span class='pull-right removeitem'>X</span>");
+    });
+    $(".trynew2").click(function(){
+        $(".mine2").append(" <b>Item text3</b>.<span class='pull-right removeitem'>X</span>");
+    });
+	$(".trynew3").click(function(){
+        $(".mine3").append(" <b>Item text4</b>.<span class='pull-right removeitem'>X</span>");
+    });
+	$(".trynew4").click(function(){
+        $(".mine4").append(" <b>Item text5</b>.<span class='pull-right removeitem'>X</span>");
+    });
+	$(".trynew5").click(function(){
+        $(".mine5").append(" <b>Item text6</b>.<span class='pull-right removeitem'>X</span>");
+    });
+	$(".trynew6").click(function(){
+        $(".mine6").append(" <b>Appended text</b>.<span class='pull-right removeitem'>X</span>");
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $(".removeitem").click(function(){
+        $(".mine1").remove();
+    });
+});
+</script>
+</body>
+</html>
